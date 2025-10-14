@@ -52,7 +52,7 @@ You must have the following installed:
     ```java
     public static final String URL = "jdbc:postgresql://localhost:5432/bank_db";
     public static final String USER = "[YOUR POSTGRES USERNAME]"; // e.g., postgres
-    public static final String PASS = "[YOUR POSTGRES PASSWORD]"; // e.g., 231429
+    public static final String PASS = "[YOUR POSTGRES PASSWORD]"; // e.g., 123456
     ```
 3.  Execute the setup script to create the tables:
     ```bash
@@ -75,7 +75,7 @@ You must have the following installed:
 
 **Srinath Udhayakumar**
 * **Final Year UG ECE Student** at Vel Tech Multi Tech, Chennai
-* **[Link to your LinkedIn Profile]**
-* **[Link to your Portfolio Website (if applicable)]**
+* **[www.linkedin.com/in/srinath-udhayakumar-14sep2000]**
+
 
 ---
