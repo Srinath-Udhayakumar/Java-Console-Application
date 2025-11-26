@@ -8,6 +8,7 @@ import com.consoleapps.bankingapp.model.BankAccount;
 
 public class BankingApp {
 
+
     private static final Scanner scan = new Scanner(System.in);
     private static final String adminPass = "Naan dhaan da LEO";
 
@@ -15,7 +16,7 @@ public class BankingApp {
         int enter ;
         while(true){
             try{
-                System.out.println("Admin login (or) Sign in (or) Sign up (or) EXIT to quit");
+                System.out.println("Welcome to BlueVerse Bank....!");
                 System.out.println("Enter 1 for Sign In");
                 System.out.println("Enter 2 for Sign Up");
                 System.out.println("Enter 3 for Admin Login");

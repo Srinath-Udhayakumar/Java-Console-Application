@@ -19,8 +19,7 @@ public class TransactionDAO {
 
     public static List<String> getTransactionsByUserName(String userName) {
         List<String> transactions = new ArrayList<>();
-        String sql = "SELECT amount, transaction_type, transaction_time" +
-                " FROM transaction WHERE user_name = ? ORDER BY transaction_time DESC";
+        String sql = "SELECT amount, transaction_type, transaction_time FROM transaction WHERE user_name = ? ORDER BY transaction_time DESC";
         try (Connection conn = DBConnectionUtil.getConnection();
              PreparedStatement ps = conn.prepareStatement(sql)) {
             ps.setString(1, userName);
